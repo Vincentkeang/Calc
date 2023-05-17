@@ -43,27 +43,11 @@ def division(choice):
         return print(f"The total of {num1} divided {num2} is {total}")
     
 
-
-# Opens a new window for the calculator 
-wn = turtle.Screen()
-wn.bgcolor("white")
-wn.setup(width=800, height=600)
-wn.tracer(0)
-
-# Number 1 for numpad 
-Num1 = turtle.Turtle() 
-Num1.shape("square")
-Num1.color("orange")
-Num1.shapesize(stretch_wid=5, stretch_len=1)
-Num1.penup()
-# UI here when finished 
-
 print("What would you like me to do: ")
 print("1. Addition")
 print("2. Subtraction")
 print("3. Multiplication")
 print("4. Division")
-print("5. Factor ")
 choice = int(input("> "))
 if choice ==  1:
     print("You have choose addition! ")
